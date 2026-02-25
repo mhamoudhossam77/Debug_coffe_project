@@ -1,10 +1,18 @@
 import React from 'react';
+import profileImg from '../assets/profile.jpg';
 
 const Hero = () => {
   return (
     <section id="home" className="pt-24 pb-12 md:pt-32 md:pb-20 bg-gradient-to-br from-blue-50 to-indigo-50">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
+          <div className="mb-8 flex justify-center">
+            <img
+              src={profileImg}
+              alt="Merna Bahgat"
+              className="w-48 h-48 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-xl"
+            />
+          </div>
           <h1 className="text-4xl md:text-6xl font-extrabold text-gray-900 tracking-tight mb-4">
             Merna Bahgat Naeem Rizk
           </h1>

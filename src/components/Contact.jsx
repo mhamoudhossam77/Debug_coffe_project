@@ -24,7 +24,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://github.com"
+            href="https://github.com/USERNAME"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 group"
@@ -39,7 +39,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/USERNAME"
             target="_blank"
             rel="noopener noreferrer"
             className="flex flex-col items-center p-8 bg-white rounded-xl shadow-sm hover:shadow-md transition-shadow border border-gray-100 group"

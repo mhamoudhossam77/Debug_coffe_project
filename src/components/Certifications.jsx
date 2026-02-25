@@ -1,4 +1,5 @@
 import React from 'react';
+import certificateImg from '../assets/certificate.jpg';
 
 const Certifications = () => {
   return (
@@ -9,21 +10,39 @@ const Certifications = () => {
             Certifications
           </h2>
         </div>
-        <div className="bg-blue-50 rounded-2xl p-8 border border-blue-100 flex flex-col md:flex-row items-center space-y-6 md:space-y-0 md:space-x-8">
-          <div className="flex-shrink-0 w-24 h-24 bg-blue-600 rounded-full flex items-center justify-center text-white shadow-lg">
-            <svg className="w-12 h-12" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
-            </svg>
+
+        <div className="bg-gray-50 rounded-2xl overflow-hidden shadow-xl border border-gray-100 transition-transform duration-300 hover:scale-[1.02]">
+          <div className="aspect-video relative overflow-hidden group">
+            <img
+              src={certificateImg}
+              alt="Flutter Camp Certificate of Completion"
+              className="w-full h-full object-cover"
+            />
+            <div className="absolute inset-0 bg-black/5 group-hover:bg-transparent transition-colors duration-300"></div>
           </div>
-          <div>
-            <h3 className="text-2xl font-bold text-gray-900 mb-1">Flutter Camp</h3>
-            <p className="text-blue-600 font-medium text-lg mb-2">Certificate of Completion</p>
-            <p className="text-gray-700 mb-4">
-              <span className="font-semibold">Recipient:</span> Merna Bahgat Naeem Rizk
-            </p>
-            <p className="text-gray-600 leading-relaxed">
-              Completed an intensive Flutter training program focused on mobile application development, covering advanced concepts, state management, and real-world project development.
-            </p>
+
+          <div className="p-8">
+            <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
+              <div>
+                <h3 className="text-2xl font-bold text-gray-900">Flutter Camp</h3>
+                <p className="text-blue-600 font-semibold uppercase tracking-wider text-sm">Certificate of Completion</p>
+              </div>
+              <div className="mt-4 md:mt-0 px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-bold flex items-center">
+                <svg className="w-4 h-4 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                  <path fillRule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clipRule="evenodd" />
+                </svg>
+                Verified
+              </div>
+            </div>
+
+            <div className="space-y-4">
+              <p className="text-gray-700">
+                <span className="font-bold text-gray-900">Recipient:</span> Merna Bahgat Naeem Rizk
+              </p>
+              <p className="text-gray-600 leading-relaxed italic">
+                "Completed an intensive Flutter training program focused on mobile application development, covering advanced concepts, state management, and real-world project development."
+              </p>
+            </div>
           </div>
         </div>
       </div>

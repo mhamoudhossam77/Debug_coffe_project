@@ -10,13 +10,10 @@ const About = () => {
           </h2>
         </div>
         <div className="bg-white rounded-2xl shadow-xl p-8 md:p-12 border border-gray-100">
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            I am an Information Technology student and a passionate Mobile Application Developer specialized in Flutter and Dart.
-            I focus on writing clean, maintainable code and strictly follow Clean Architecture principles to build scalable applications.
-          </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-8">
-            My expertise includes API integration, Bloc state management, Hive local storage, and Firebase Authentication.
-            I thrive in team-based environments and have successfully led projects, ensuring quality and collaboration.
+            I am an Information Technology student and a passionate Mobile Application Developer specialized in Flutter and Dart.
+            I focus on writing clean, maintainable code following Clean Architecture principles and have experience with API integration, Bloc, Hive, and Firebase.
+            I thrive in team-based environments and have successfully led projects, ensuring high-quality results.
           </p>
 
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mt-8">
